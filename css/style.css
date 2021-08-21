@@ -1,0 +1,107 @@
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+.container,
+.container-parnters {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 70px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+
+.nav-mob {
+  display: none;
+}
+
+.nav,
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 25px;
+  margin-right: 60px;
+}
+
+.search-mob {
+  display: none;
+}
+
+.search {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 39px;
+  margin-right: 60px;
+  background: url(../img/search.svg) no-repeat left 10px center;
+  border: 1px solid #ebebf1;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.account {
+  float: right;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.account-name {
+  padding-right: 10px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 39px;
+}
+
+.wraper-mob {
+  display: none;
+}
+
+.wraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  height: 120px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.partners-logo-4 {
+  margin-right: 0;
+}
